@@ -1,0 +1,29 @@
+<ion-grid>
+  <ion-row color="primary" justify-content-center>
+    <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+      <div text-center>
+        <h1>SIGNUP FORM</h1>
+      </div>
+      <div padding>
+        <ion-item>
+          <ion-input  name="name" type="text" placeholder="Name" ngModel required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input name="email" type="email" placeholder="Email" ngModel required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input name="password" type="password" placeholder="Password" ngModel required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input name="confirm" type="password" placeholder="Password again" ngModel required></ion-input>
+        </ion-item>
+      </div>
+      <div padding>
+        <ion-button  size="large" type="submit" expand="block">SIGNUP</ion-button>
+      </div>
+      <ion-card>
+        <img src="assets/img/18.jpg">
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>

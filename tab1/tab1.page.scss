@@ -1,0 +1,26 @@
+.button{
+    display:table;
+    margin:auto;
+    border-radius: 4px;
+    margin-top: 27px;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    text-shadow: 5px 2px lightgray;
+}
+ion-item{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.avatar{
+    margin: auto;
+}
+ion-grid{
+    padding-top: 30%;
+}
